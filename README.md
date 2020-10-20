@@ -17,7 +17,8 @@ python train.py --layerwise --gpuid 0
 We analyse FGSM-Generated Perturbations for Pre-ResNet18. As
 visualized in the figure, although FGSM-generated perturbations can surgically doctor the image at
 the 20th epoch, they deteriorate into random noise at the 30th epoch. As the deterioration of FGSM, the robust perforamnce of FGSM adversarial training drops to zero.
-![fgsm](./figures/fgsm.png){:height="50%" width="50%"}
+<img src="https://github.com/zichaoli/APART/blob/main/figures/fgsm.png" style="zoom:50%" />
+![fgsm](https://github.com/zichaoli/APART/blob/main/figures/fgsm.png)
 ![fgsm_curve](./figures/fgsm_curve.png
 )
 
