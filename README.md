@@ -19,15 +19,14 @@ visualized in the figure, although FGSM-generated perturbations can surgically d
 the 20th epoch, they deteriorate into random noise at the 30th epoch. As the deterioration of FGSM, the robust perforamnce of FGSM adversarial training drops to zero.
 
  <img src="./figures/fgsm.png" width = "600" height = "400"  align=center />
- <img src="./figures/gsm_curve.png" width = "600" height = "400"  align=center />
-![fgsm](https://github.com/zichaoli/APART/blob/main/figures/fgsm.png =250x250)
-![fgsm_curve](./figures/fgsm_curve.png
+ <img src="./figures/fgsm_curve.png" width = "600" height = "400"  align=center />
+
 )
 
 ## How to mitigate the robustness drop?
 
 Robustness drop has been widely observed after conducting adversarial training for too long. Not only in FGSM adversarial trianing, there is also a robustness drop in PGD adverarial training.  As the common wisdom views this phenomenon as overfitting, our analyses suggest that the primary cause of the robustness drop is perturbation underfitting. We propose APART, an adaptive adversarial training framework, which parameterizes perturbation generation and progressively strengthens them. The following robust test accuracy curve shows APART V.S. PGD-10:
-![pgd_curve](./figures/pgd_curve.png)
+ <img src="./figures/pgd_curve.png" width = "600" height = "400"  align=center />
 
 
 
