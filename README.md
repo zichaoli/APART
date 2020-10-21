@@ -16,13 +16,13 @@ We analyse FGSM-Generated Perturbations for Pre-ResNet18. As visualized below, a
 the 20th epoch, they deteriorate into random noise at the 30th epoch. 
 As the deterioration of FGSM, the robust perforamnce of FGSM adversarial training drops to zero.
 
- <img src="./figures/fgsm.png" width = "600" height = "400"  align=center />
- <img src="./figures/fgsm_curve.png" width = "600" height = "400"  align=center />
+ <p align="center"> <img src="./figures/fgsm.png" width = "600" height = "400"  align="center" /> </p>
+ <p align="center"> <img src="./figures/fgsm_curve.png" width = "600" height = "400"  align="center" /> </p>
 
 
 This phenomenon (robustness drop) has been widely observed after conducting adversarial training for too long. As the common wisdom views this phenomenon as overfitting, our analyses suggest that the primary cause of the robustness drop is **perturbation underfitting**. Guided by our analysis, we propose APART, an adaptive adversarial training framework, which parameterizes perturbation generation and progressively strengthens them. Apart is not only 4 times faster than PGD-10, but suffers less from robustness drop and performs better. 
 
- <img src="./figures/pgd_curve.png" width = "600" height = "400"  align=center />
+<p align="center"> <img src="./figures/pgd_curve.png" width = "600" height = "400"  align="center" /> </p>
 
 ## Quick Start Guide
 
