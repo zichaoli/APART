@@ -36,7 +36,6 @@ The code is partly forked from the [ATTA adversarial training repository](https:
 ### Examples for training and evaluate
 ```
 python train.py --layerwise --gpuid 0
-
 ```
 
 ## Citation
