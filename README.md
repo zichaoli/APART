@@ -41,7 +41,7 @@ python train.py --layerwise --gpuid 0
 ## Citation
 Please cite the following paper if you found our model useful. Thanks!
 
->Zichao Li<sup>*</sup>, Liyuan Liu<sup>*</sup>, Chengyu Dong and Jingbo Shang (2020). Overfitting or Underfitting? Understand Robustness Drop in Adversarial Training. arXiv preprint arXiv:2010.08034 (2020).
+>Zichao Li<sup>\*</sup>, Liyuan Liu<sup>\*</sup>, Chengyu Dong and Jingbo Shang (2020). Overfitting or Underfitting? Understand Robustness Drop in Adversarial Training. arXiv preprint arXiv:2010.08034 (2020).
 
 ```
 @article{li2020apart,
